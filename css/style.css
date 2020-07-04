@@ -468,7 +468,7 @@
 		}
 
 		.icon > .label {
-			display: none;
+			display: block;
 		}
 
 /* Image */
@@ -562,7 +562,8 @@
 
 			ul.icons li {
 				display: inline-block;
-				padding: 0 1.25em 0 0;
+				
+				padding: 1.5rem ;
 			}
 
 				ul.icons li:last-child {
@@ -834,6 +835,7 @@
 		input[type="button"].small,
 		.button.small {
 			font-size: 0.8em;
+			text-align: center;
 		}
 
 		input[type="submit"].big,
@@ -1393,4 +1395,10 @@
 
 		#footer .copyright {
 			font-size: 0.8em;
+		}
+
+		/* Resume */
+		.resume{
+			padding: 5% 15% 0;
+			text-align: center;
 		}
